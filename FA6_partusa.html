@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FA6_partusa</title>
+  <style>
+    a {
+      color: blue;
+      text-decoration: none;
+      display: inline-block;
+      padding: 5px;
+      margin: 5px;
+      border: 1px solid #ccc;
+    }
+
+    a:link {
+      background-color: #f0f0f0;
+    }
+
+    a:visited {
+      background-color: #d9d9d9;
+    }
+
+    a:hover {
+      background-color: #b3b3b3;
+      color: white;
+    }
+
+    a:active {
+      background-color: #666;
+      color: white;
+    }
+
+    #div1 {
+      padding: 10px;
+      margin: 10px;
+      border: 1px solid #ccc;
+	  background-color: #D1A086;
+	  height: 150px;
+	  width: 150px;
+    }
+
+    #div2 {
+	  height: 150px;
+	  width: 150px;
+      padding: 10px;
+      margin: 10px;
+      border: 1px solid #ccc;
+	  background-color: #D1A086
+    }
+
+    #div1:target {
+	  background-color: #86ACD1;
+      color: #FFFFFF;
+    }
+
+    #div2:target {
+   	  background-color: #86ACD1;
+      color: #FFFFFF;
+      border: 10px dotted green;
+    }
+	
+	body {
+      background-image: url('img1.avif');
+      background-size: cover; 
+    }
+  </style>
+</head>
+<body>
+
+  <a href="#div1">Div 1</a>
+  <div id="div1">Div 1</div>
+
+  <br>
+
+  <a href="#div2">Div 2</a>
+  <div id="div2">Div 2</div>
+
+</body>
+</html>
